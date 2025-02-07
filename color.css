@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style:none;
+    text-decoration:none;
+}
+body{
+    background: #140e1c;
+    color:white;  
+}
+}
+hero{
+    background: #140e1c;
+}
+.header{
+    position: fixed;
+    background: black;
+    width: 100%;
+    height: 3.5rem;
+    top: 0;
+}
+.header ul{
+    display:flex;
+    justify-content:center;
+    text-align: center;
+    gap:3.5rem;
+    line-height:3rem; 
+    
+}
+ul li{
+    font-size:1.5rem;
+    font-weight:700;
+    color:white;
+    transition: .5s;
+} 
+ul li:hover{
+    color:#9f003b;
+    scale:.9;
+    letter-spacing:-.3rem;
+}
+.logo{
+margin: 5rem;
+    text-align:center;
+    font-size:2rem;
+    padding: 1rem ;
+    color:white;
+    letter-spacing:-.3rem;
+} 
+.logo span{
+    color:red;
+    font-size:2rem;
+    font-weight:900;
+}
+.image{
+opacity:1rem;
+display:flex;
+    align-item: center;
+    justify-content:center;
+    margin-top:3rem;
+}
+.personal-image{
+    width: 150px;
+    height: 200px;
+     border-top-left-radius: 5rem;
+     border-bottom-right-radius: 5rem;
+    background: red;
+    border: 2px solid red;
+    object-clips:cover;
+    }
+
+
+
+.about {
+    color: white;
+    margin: 2rem 0;
+    padding: 1rem 1rem;
+    border-top:2px solid red;
+    display: inline-block;
+    font-size: 24px;
+    text-align: left;
+    border-bottom:2px solid white;
+}
+
+h1 {
+color: white;
+    font-size: 24px;
+}
+
+.changing-text::after {
+    color:red;
+    content: "web design";
+    animation: changeText 5s infinite;
+}
+
+@keyframes changeText {
+    0%, 50% { content: "weB desigN"; }
+    51%, 100% { content: "typist"; }
+}
+
+/* Contact */
+#contact {
+    background: black;
+    color: white;
+    padding: 15px ;
+    border-top:2px solid red;
+    height: 28rem;
+    border-bottom:2px solid white;
+}
+h2{
+    text-align:center;
+    font-size:1.5rem;
+    font-weight:700;
+    padding:2rem;
+}
+
+form {
+    max-width: 400px;
+    margin: auto;
+}
+
+input, textarea {
+    width: 90%;
+    padding: 15px;
+    margin-top: 1.5rem;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    width: 99%;
+    padding: 10px;
+    margin-top:1rem;
+    background: #f4a261;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+button:hover {
+    background: #e76f5h;
+}
+html {
+  scroll-behavior: smooth;
+}
+.font {
+    color: white;
+    display:flex;
+    justify-content:center;1
+    text-align: center;
+    gap:5rem;
+    line-height:3rem;
+    padding-top:2rem;
+}
+.font i{
+   
+    color: white;
+    font-size:2rem ;
+}
